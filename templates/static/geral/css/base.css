@@ -1,0 +1,20 @@
+/* O ! important é uma regra do CSS utilizada
+ para adicionar importância a uma propriedade/valor do CSS.
+  Esta regra substituirá todos os estilos que já foram aplicados
+   no elemento referente a propriedade que a
+    regra está sendo adicionada.*/
+
+body{
+    background-color: #1C1A1A !important;
+    color: white !important;
+}
+
+/* criando as variaveis gerais para cores*/
+:root{
+
+    --main-color: #2B2B2B;
+    --dark-color: #1C1A1A;
+    --contrast-color: #69D2CD;
+    --differential-color: #E96363;
+
+}
